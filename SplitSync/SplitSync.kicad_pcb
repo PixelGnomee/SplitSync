@@ -121,9 +121,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "./")
 		)
 	)
 	(net 0 "")
@@ -77235,6 +77235,7 @@
 		(property "Value" "MountingHole_2.2mm_M2"
 			(at 0 3.2 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "e5b65f4e-39af-4b46-9f6b-dda858b3c5a8")
 			(effects
 				(font
@@ -77301,17 +77302,6 @@
 			(fill none)
 			(layer "F.CrtYd")
 			(uuid "70c3587b-3ff7-4ebe-bdd2-d1640a03b396")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "67764899-47a6-45da-adc2-87441cacba6b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -77725,6 +77715,210 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "B.Cu")
+		(uuid "0878d504-5231-43e6-8c56-cfbc5c415fbe")
+		(at 467.115946 102.217232 180)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "REF**"
+			(at 0 3.2 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "edb32f0d-6f19-4783-b4cf-509ccf72e2b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 -3.2 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e491b696-355d-4cf2-a614-0ca932527dcc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1c30ffaf-b9bd-4e9f-8717-b0aafd44a686")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ce756b9c-8548-461d-b9a1-bb4f0fa32fe2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "71957c8b-8560-482f-9bc6-74eb78a2164c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "2dfe3e80-7534-43a4-b5c9-ef0c19abf76a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "62ac0908-258c-4354-b903-2b000a468053")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 180)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "c586c9e8-35e4-4fa5-8739-a4592267768c")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "B.Cu")
+		(uuid "0dbc3974-be17-4671-b832-cc90a8cdd7a8")
+		(at 268.341176 244.728116 180)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "REF**"
+			(at 0 3.2 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "edb32f0d-6f19-4783-b4cf-509ccf72e2b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 -3.2 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e491b696-355d-4cf2-a614-0ca932527dcc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1c30ffaf-b9bd-4e9f-8717-b0aafd44a686")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ce756b9c-8548-461d-b9a1-bb4f0fa32fe2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "71957c8b-8560-482f-9bc6-74eb78a2164c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "2dfe3e80-7534-43a4-b5c9-ef0c19abf76a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "62ac0908-258c-4354-b903-2b000a468053")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 180)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "c586c9e8-35e4-4fa5-8739-a4592267768c")
 		)
 	)
 	(footprint "Diode_SMD:D_SOD-123"
@@ -78991,18 +79185,6 @@
 			(fill none)
 			(layer "B.CrtYd")
 			(uuid "dcd79c96-4d55-407d-9290-c166d57b2e21")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
-			(layer "B.Fab")
-			(uuid "ba165357-22ab-42a0-b2b9-6cbb2f84e609")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0 180)
@@ -81649,6 +81831,210 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "B.Cu")
+		(uuid "4609f07f-3dd8-4fcc-98f8-929d08621bf4")
+		(at 80.581241 144.62806 180)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "REF**"
+			(at 0 3.2 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "edb32f0d-6f19-4783-b4cf-509ccf72e2b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 -3.2 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e491b696-355d-4cf2-a614-0ca932527dcc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1c30ffaf-b9bd-4e9f-8717-b0aafd44a686")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ce756b9c-8548-461d-b9a1-bb4f0fa32fe2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "71957c8b-8560-482f-9bc6-74eb78a2164c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "2dfe3e80-7534-43a4-b5c9-ef0c19abf76a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "62ac0908-258c-4354-b903-2b000a468053")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 180)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "c586c9e8-35e4-4fa5-8739-a4592267768c")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "B.Cu")
+		(uuid "4a45b047-1df4-46a1-9899-bc791ad91929")
+		(at 273.092696 102.651069 180)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "REF**"
+			(at 0 3.2 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "edb32f0d-6f19-4783-b4cf-509ccf72e2b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 -3.2 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e491b696-355d-4cf2-a614-0ca932527dcc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1c30ffaf-b9bd-4e9f-8717-b0aafd44a686")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ce756b9c-8548-461d-b9a1-bb4f0fa32fe2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "71957c8b-8560-482f-9bc6-74eb78a2164c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "2dfe3e80-7534-43a4-b5c9-ef0c19abf76a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "62ac0908-258c-4354-b903-2b000a468053")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 180)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "c586c9e8-35e4-4fa5-8739-a4592267768c")
+		)
+	)
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "4b0761b2-8357-41d0-ba44-fdd4cabe4ade")
@@ -83698,6 +84084,108 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "B.Cu")
+		(uuid "5a6ee34b-811a-47d6-a109-0ea0de56e4c4")
+		(at 510.276759 145.37806 180)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "REF**"
+			(at 0 3.2 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "edb32f0d-6f19-4783-b4cf-509ccf72e2b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 -3.2 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e491b696-355d-4cf2-a614-0ca932527dcc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1c30ffaf-b9bd-4e9f-8717-b0aafd44a686")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ce756b9c-8548-461d-b9a1-bb4f0fa32fe2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "71957c8b-8560-482f-9bc6-74eb78a2164c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "2dfe3e80-7534-43a4-b5c9-ef0c19abf76a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "62ac0908-258c-4354-b903-2b000a468053")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 180)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "c586c9e8-35e4-4fa5-8739-a4592267768c")
 		)
 	)
 	(footprint "Diode_SMD:D_SOD-123"
@@ -87531,6 +88019,7 @@
 		(property "Value" "MountingHole_2.2mm_M2"
 			(at 0 -3.2 180)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "e491b696-355d-4cf2-a614-0ca932527dcc")
 			(effects
 				(font
@@ -87601,18 +88090,6 @@
 			(fill none)
 			(layer "B.CrtYd")
 			(uuid "62ac0908-258c-4354-b903-2b000a468053")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
-			(layer "B.Fab")
-			(uuid "a175bc10-58f6-4a76-a294-1ec24ee35fe3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0 180)
@@ -87915,81 +88392,6 @@
 			)
 		)
 	)
-	(footprint ""
-		(layer "B.Cu")
-		(uuid "805024a6-5781-4e45-8724-ac56736f3efc")
-		(at 478.739804 393.251069 180)
-		(property "Reference" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(uuid "a54c8149-ba4f-461f-b866-c8a4d42ad420")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(uuid "600b8057-4d01-445e-a063-b4f6a3111e71")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "263e2917-3416-4388-9a85-4d077f15a6ca")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2cc81bcb-6dd7-4f46-bb48-d9316b2caa94")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "7592aca5-1748-4dd7-ab8e-59861aae0d4c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify mirror)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0 180)
-			(size 2.2 2.2)
-			(drill 2.2)
-			(layers "F&B.Cu" "*.Mask")
-			(uuid "1bf8625a-b3c4-40ed-8a35-f0b820b606a0")
-		)
-	)
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "844052fa-6586-4e70-9c1f-f5cf6d288e6c")
@@ -88281,6 +88683,108 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "B.Cu")
+		(uuid "8dd1ee9b-4a75-4e23-beda-ff96b8cb6d4a")
+		(at 294.013429 244.729956 180)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "REF**"
+			(at 0 3.2 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "edb32f0d-6f19-4783-b4cf-509ccf72e2b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 -3.2 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e491b696-355d-4cf2-a614-0ca932527dcc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1c30ffaf-b9bd-4e9f-8717-b0aafd44a686")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ce756b9c-8548-461d-b9a1-bb4f0fa32fe2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "71957c8b-8560-482f-9bc6-74eb78a2164c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "2dfe3e80-7534-43a4-b5c9-ef0c19abf76a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "62ac0908-258c-4354-b903-2b000a468053")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 180)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "c586c9e8-35e4-4fa5-8739-a4592267768c")
 		)
 	)
 	(footprint "Diode_SMD:D_SOD-123"
@@ -95641,6 +96145,108 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "B.Cu")
+		(uuid "c39e7c25-0f86-4ed3-9565-9cd628e3354f")
+		(at 122.992061 102.21725 180)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "REF**"
+			(at 0 3.2 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "edb32f0d-6f19-4783-b4cf-509ccf72e2b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 -3.2 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e491b696-355d-4cf2-a614-0ca932527dcc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1c30ffaf-b9bd-4e9f-8717-b0aafd44a686")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ce756b9c-8548-461d-b9a1-bb4f0fa32fe2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "71957c8b-8560-482f-9bc6-74eb78a2164c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "2dfe3e80-7534-43a4-b5c9-ef0c19abf76a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "62ac0908-258c-4354-b903-2b000a468053")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 180)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "c586c9e8-35e4-4fa5-8739-a4592267768c")
+		)
+	)
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "c85c8f96-003b-4c43-b43d-e598b52b4f00")
@@ -95937,7 +96543,7 @@
 	(footprint "MountingHole:MountingHole_2.2mm_M2"
 		(layer "B.Cu")
 		(uuid "ca6f329b-42d1-4106-bd3d-44a6ed9dd3d3")
-		(at 506.11625 241.44 180)
+		(at 505.804 241.315 180)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
 		(property "Reference" "REF**"
@@ -95956,6 +96562,7 @@
 		(property "Value" "MountingHole_2.2mm_M2"
 			(at 0 -3.2 180)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "c8f5215b-8e23-4cd7-bb10-81d7e5b774e3")
 			(effects
 				(font
@@ -96026,18 +96633,6 @@
 			(fill none)
 			(layer "B.CrtYd")
 			(uuid "b7b3bb50-4bbd-4415-9a3a-88b3b9a9cd22")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
-			(layer "B.Fab")
-			(uuid "61f9b947-7635-491f-947c-a46399f2a81a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0 180)
@@ -98797,6 +99392,108 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "B.Cu")
+		(uuid "eb9f8710-0f00-4798-abf2-899a54f39bee")
+		(at 509.843214 244.729214 180)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "REF**"
+			(at 0 3.2 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "edb32f0d-6f19-4783-b4cf-509ccf72e2b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 -3.2 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e491b696-355d-4cf2-a614-0ca932527dcc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1c30ffaf-b9bd-4e9f-8717-b0aafd44a686")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ce756b9c-8548-461d-b9a1-bb4f0fa32fe2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "71957c8b-8560-482f-9bc6-74eb78a2164c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "2dfe3e80-7534-43a4-b5c9-ef0c19abf76a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "62ac0908-258c-4354-b903-2b000a468053")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 180)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "c586c9e8-35e4-4fa5-8739-a4592267768c")
+		)
+	)
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "ec5e2790-b259-4ffd-a134-dfd7a21593cb")
@@ -99088,6 +99785,108 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "B.Cu")
+		(uuid "ec827c24-94d4-4096-aad3-b7e2c55df8e8")
+		(at 81.014786 244.729214 180)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "REF**"
+			(at 0 3.2 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "edb32f0d-6f19-4783-b4cf-509ccf72e2b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 -3.2 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e491b696-355d-4cf2-a614-0ca932527dcc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1c30ffaf-b9bd-4e9f-8717-b0aafd44a686")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ce756b9c-8548-461d-b9a1-bb4f0fa32fe2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "71957c8b-8560-482f-9bc6-74eb78a2164c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "2dfe3e80-7534-43a4-b5c9-ef0c19abf76a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "62ac0908-258c-4354-b903-2b000a468053")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 180)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "c586c9e8-35e4-4fa5-8739-a4592267768c")
 		)
 	)
 	(footprint "Diode_SMD:D_SOD-123"
@@ -99969,6 +100768,108 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "B.Cu")
+		(uuid "f6b424f2-c950-4ff8-b057-757965cb9e0e")
+		(at 298.764522 102.650642 180)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "REF**"
+			(at 0 3.2 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "edb32f0d-6f19-4783-b4cf-509ccf72e2b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 -3.2 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e491b696-355d-4cf2-a614-0ca932527dcc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1c30ffaf-b9bd-4e9f-8717-b0aafd44a686")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ce756b9c-8548-461d-b9a1-bb4f0fa32fe2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "71957c8b-8560-482f-9bc6-74eb78a2164c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "2dfe3e80-7534-43a4-b5c9-ef0c19abf76a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "62ac0908-258c-4354-b903-2b000a468053")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 180)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "c586c9e8-35e4-4fa5-8739-a4592267768c")
+		)
+	)
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "f6eeb8d1-1eca-415f-a246-9bf2e0805ba3")
@@ -100553,118 +101454,6 @@
 			(rotate
 				(xyz 0 0 0)
 			)
-		)
-	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
-		(layer "B.Cu")
-		(uuid "fa1188dc-1bcf-4d3f-a8b9-b69980b9bf42")
-		(at 478.739804 393.251069 180)
-		(descr "Mounting Hole 2.2mm, no annular, M2")
-		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "REF**"
-			(at 0 3.2 180)
-			(layer "B.SilkS")
-			(uuid "cf3e66a1-af81-4ad0-ae75-b7663485f090")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "MountingHole_2.2mm_M2"
-			(at 0 -3.2 180)
-			(layer "B.Fab")
-			(uuid "7e0bf215-e5f2-4012-9d4c-812dc1f56d39")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "1c30ffaf-b9bd-4e9f-8717-b0aafd44a686")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ce756b9c-8548-461d-b9a1-bb4f0fa32fe2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "71957c8b-8560-482f-9bc6-74eb78a2164c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify mirror)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 2.2 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "682e449a-6999-4d37-8027-69623da3cc40")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 2.45 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "B.CrtYd")
-			(uuid "b680df71-3fa8-4383-a875-a66ba8c94425")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
-			(layer "B.Fab")
-			(uuid "c8b108eb-55c1-4efb-bb8d-2fd5a652b945")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0 180)
-			(size 2.2 2.2)
-			(drill 2.2)
-			(layers "F&B.Cu" "*.Mask")
-			(uuid "a5cea347-1d24-4515-a984-36ef1bd331ae")
 		)
 	)
 	(footprint "Diode_SMD:D_SOD-123"
